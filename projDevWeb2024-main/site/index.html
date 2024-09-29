@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="description"
+			content="Quiosque Moana é um local à beira-mar para realização de eventos e casamentos, localizado no Recreio dos Bandeirantes, Rio de Janeiro. Oferecemos experiências únicas com bebidas, petiscos e música ao vivo em um ambiente descontraído e à beira-mar."
+		/>
+		<meta name="keywords" content="Quiosque, Moana, evento, casamento, praia,
+		Recreio dos Bandeirantes, Rio de Janeiro, drinks, comida, ambiente tropical,
+		música ao vivo"" />
+		<meta
+			name="author"
+			content="João Guilherme Bazeth Feistel Goulart, João Vitor da Silva, Luiz Paulo França Costa, Marcelo Ramos dos Santos, Matheus Silva Meirelles Moreno"
+		/>
+		<title>Quiosque Moana</title>
+		<link
+			rel="stylesheet"
+			href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+		/>
+		<link rel="stylesheet" href="./css/indexcss.css" />
+		<link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Roboto"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<nav id="navbar">
+			<a href="./index.html"
+				><img src="./img/logoimg-no-undertext.png" id="nav-logo" alt=""
+			/></a>
+			<ul id="menu">
+				<li>
+					<a href="./projetoweb1.html">
+						<button id="reservaBtn" ->Reservar Hospedagem</button>
+					</a>
+				</li>
+				<li>
+					<a href="#info">
+						<button id="infoBtn">Informações</button>
+					</a>
+				</li>
+				<li>
+					<a href="./login.html">
+						<button id="loginBtn">Registrar ou Logar</button>
+					</a>
+				</li>
+			</ul>
+		</nav>
+		<main>
+			<figure class="logo">
+				<a href="../site/index.html"
+					><img src="./img/logoImg.png" alt="logo" class="logoImg"
+				/></a>
+			</figure>
+		</main>
+		<h1 id="inf-add" style="color: gold;"># INFORMAÇOES ADICIONAIS:</h1>
+		<section>
+			<div id="info">
+				<div id="map"></div>
+				<div id="info-content">
+					<h1># ENDEREÇO</h1>
+					<p>
+						<a
+							href="http://maps.google.com/maps/search/Quiosque%20Moana%20Tiki%20Bar/@-23.0145511627197,-43.403434753418,17z"
+							target="_blank"
+							>Av. Lúcio Costa Ilha 10 - Recreio dos Bandeirantes, RJ
+							23970-000</a
+						>
+					</p>
+					<p>(horário de funcionamento)</p>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<div id="footer-top">
+				<ul id="footer-menu">
+					<li><a href="./quem-somos.html">Quem Somos</a></li>
+					<li><a href="./fale-conosco.html">Fale Conosco</a></li>
+					<li><a href="https://www.linkedin.com/">Trabalhe Conosco</a></li>
+				</ul>
+				<ul id="footer-social-ul">
+					<li>
+						<a
+							href="https://www.instagram.com/quiosquemoana/"
+							id="footer-insta"
+						></a>
+					</li>
+					<li>
+						<a href="https://www.tiktok.com" id="footer-tiktok"></a>
+					</li>
+					<li>
+						<a href="https://www.facebook.com" id="footer-facebook"></a>
+					</li>
+					<li>
+						<a href="https://www.youtube.com" id="footer-youtube"></a>
+					</li>
+				</ul>
+			</div>
+			<hr />
+			<div id="footer-bottom">
+				<p class="copyright-text">
+					Copyright © 2024 Quiosque Moana Todos os direitos reservados. Todas as
+					marcas registradas são propriedade dos seus respectivos donos.
+				</p>
+			</div>
+		</footer>
+	</body>
+	<script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+	<script src="./script/index.js"></script>
+</html>
